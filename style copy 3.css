@@ -1,0 +1,33 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #171717; /* Sleek dark background for modern look */
+    color: #ffffff; /* Ensures all text is easily readable on dark background */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #333; /* Dark grey background for container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for a 3D floating effect */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #cc0909; /* Red border for emphasis */
+    border-radius: 5px;
+    background: #222; /* Slightly lighter black for input field */
+    color: #fff; /* White text for better visibility */
+}
+
+#passwordStrength {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #cc0909; /* Red color for password strength to make it stand out */
+}

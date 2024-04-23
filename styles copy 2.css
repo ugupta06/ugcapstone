@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;  /* Ensuring consistent font usage */
+    background-color: #f4f4f4; /* Light grey background for a clean look */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Darker text for better readability */
+}
+
+header {
+    background-color: #cc0909; /* Bright blue to catch the eye */
+    color: white;
+    padding: 20px; /* Increased padding for a better visual */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for a floating effect */
+    font-size: 24px; /* Larger font size for header */
+}
+
+main {
+    background: gray;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px; /* Slightly larger radius for smoother edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for 3D effect */
+    width: auto; /* Ensures the main content fits well */
+    max-width: 800px; /* Restricts maximum width for better layout control */
+    margin: 40px auto; /* Centers the main content and provides vertical spacing */
+}
+
+.category h2 {
+    color: #333; /* Consistent text color */
+    border-bottom: 3px solid #ab0202; /* Thicker border for emphasis */
+    padding-bottom: 5px; /* Padding to lift text off the border */
+}
+
+.category ul {
+    list-style-type: none; /* Removing default list style */
+    padding: 0;
+}
+
+.category li a {
+    color: #007BFF; /* Link color matches the header for design consistency */
+    text-decoration: none; /* Removing underline from links */
+    padding: 5px 0; /* Adding padding for better touch targets */
+    display: block; /* Makes the entire area clickable */
+}
+
+.category li a:hover {
+    text-decoration: underline; /* Underline on hover for a clear indication */
+    background-color: #000000; /* Subtle hover background color for interactivity */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ab0202; /* Keeping footer consistent with the header */
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow casts upwards giving a lifting effect */
+}

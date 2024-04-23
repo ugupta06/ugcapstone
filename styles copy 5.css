@@ -1,0 +1,66 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #171717; /* Dark background for a sleek look */
+    color: #ffffff; /* White text for contrast */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    color: #cc0909; /* Bright red for headings */
+}
+
+/* Styling for file input and text area */
+input[type="file"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #cc0909; /* Red border for input elements */
+    border-radius: 5px;
+    background-color: #222; /* Darker background for input fields */
+    color: #fff; /* White text to stand out against the dark background */
+}
+
+/* Buttons with a modern sleek design */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #cc0909; /* Red background for buttons */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #ff3333; /* Lighter red when hovered */
+}
+
+/* Hidden canvas style */
+canvas {
+    display: none; /* Keep canvas hidden as specified */
+}
+
+/* Image result styling */
+img {
+    max-width: 100%; /* Responsive image styling */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+/* Paragraph styling for extracted text */
+p {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333; /* Slightly lighter background for visibility */
+    border-radius: 5px;
+    width: 80%; /* Consistent with input widths */
+    border: 1px solid #cc0909; /* Border to highlight the text area */
+}

@@ -1,0 +1,30 @@
+#minesweeper {
+    display: grid;
+    grid-template-columns: repeat(10, 30px); /* Keeps your preferred grid setup */
+    grid-gap: 1px; /* Minimal gap for a tight grid */
+    background-color: #333; /* Dark gray background for grid contrast */
+    border: 2px solid #cc0909; /* Bold red border for visual impact */
+    margin: 20px auto; /* Centers the grid horizontally */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Subtle red shadow for depth */
+    padding: 5px; /* Space inside the border */
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #222; /* Darker cell background for a deep contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px; /* Keeps the text large for visibility */
+    cursor: pointer;
+    border-radius: 3px; /* Slightly rounded corners for a modern touch */
+    transition: background-color 0.2s; /* Smooth transition for interactive feel */
+}
+
+.cell:hover {
+    background-color: #cc0909; /* Cells highlight in red when hovered */
+    color: #ffffff; /* Ensures text color remains bright for readability */
+    transform: scale(1.1); /* Slight increase in scale to denote selection */
+}

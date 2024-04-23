@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Steganography Tool</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+    <div class="container"> <!-- Container for centering the content -->
+        <h1>Simple Steganography Tool</h1>
+        <div class="input-group">
+            <label for="imageInput">Upload Image:</label> <!-- Accessibility improvement with label -->
+            <input type="file" id="imageInput" accept="image/*">
+        </div>
+        <div class="input-group">
+            <label for="textToHide">Text to Hide:</label> <!-- Accessibility improvement with label -->
+            <textarea id="textToHide" placeholder="Text to hide..."></textarea>
+        </div>
+        <button onclick="embedText()">Embed Text</button>
+        <button onclick="extractText()">Extract Text</button>
+        <div id="displayArea"> <!-- Container for output display -->
+            <canvas id="canvas" style="display:none;"></canvas> <!-- Keep canvas hidden as it's used for processing -->
+            <img id="resultImage" src="" alt="Steganography result image" style="display:none;"> <!-- Image hidden initially -->
+            <p id="extractedText"></p> <!-- Container for extracted text -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript for functionality -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #171717; /* Dark background for a sleek look */
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; /* White text for contrast */
+}
+
+canvas {
+    border: 3px solid #cc0909; /* Stylish red border */
+    background-color: #000; /* Black background for the canvas */
+    box-shadow: 0 0 15px #cc0909; /* Red glow effect */
+    padding: 10px; /* Optional: Adds space inside the border */
+    margin: 20px; /* Separates the canvas from any nearby elements */
+}

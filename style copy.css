@@ -1,0 +1,59 @@
+#gameContainer {
+    width: 320px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    background-color: #171717; /* Sleek black background */
+    margin: auto;
+    box-shadow: 0 0 10px #cc0909; /* Red glow to create a subtle outer glow effect */
+    border: 3px solid #cc0909; /* Bold red border for visual impact */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+}
+
+#bird {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 150px; /* Adjust top positioning if necessary to center */
+    left: 50%; /* Centers the bird horizontally */
+    margin-left: -20px; /* Half the width of the bird to perfectly center */
+    background-color: #ffd700; /* Keeping the bird yellow for visibility */
+    border-radius: 50%;
+    z-index: 10; /* Ensures bird is above other elements */
+}
+
+#ground {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-color: #333; /* Dark grey to maintain theme */
+    border-top: 5px solid #cc0909; /* Red top border for ground */
+}
+
+.pipe {
+    position: absolute;
+    width: 60px;
+    background-color: #333; /* Dark grey pipes */
+    bottom: 0;
+    top: 0;
+}
+
+.upperPipe {
+    height: 100px; /* Dynamically changes as per your settings */
+    bottom: initial;
+    top: 0;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the score horizontally */
+    color: #ffffff;
+    font-size: 24px;
+    z-index: 100;
+}

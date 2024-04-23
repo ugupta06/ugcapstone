@@ -1,0 +1,46 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #171717; /* Sleek dark background */
+    color: #ffffff; /* Ensuring text is readable on dark background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #333; /* Darker shade for the container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Stronger shadow for more depth */
+    text-align: center;
+    border-radius: 8px; /* Smoothed edges for a modern look */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cc0909; /* Red border for input fields */
+    border-radius: 5px;
+    background: #222; /* Darker input background */
+    color: #fff; /* White text for visibility */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #cc0909; /* Red button background */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #ff1a1a; /* Brighter red on hover */
+}
+
+p {
+    margin-top: 20px;
+    color: #ccc; /* Lighter text color for paragraph */
+}

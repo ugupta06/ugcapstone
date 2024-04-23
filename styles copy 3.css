@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #171717; /* Dark background for a sleek look */
+    margin: 0;
+    padding: 20px;
+    color: #ffffff; /* Ensure text is readable on a dark background */
+}
+
+header {
+    background-color: #cc0909; /* Maintaining the red color for the header */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+main {
+    background: #2c2c2c; /* Slightly lighter gray for the main area */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Stronger shadow for a 3D effect */
+    border: 1px solid #444; /* Adding a border to define the area better */
+}
+
+.recipe h2 {
+    color: #cc0909; /* Red headings within the recipe for consistency and pop */
+}
+
+ul, ol {
+    margin-left: 20px;
+    color: #fff; /* Changing list color to white for readability */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #cc0909; /* Red footer to match the header */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow for lifting effect */
+}
